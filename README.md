@@ -1,2 +1,2 @@
-# IndividualExerise
+# IndividualExercise
 499 Individual Project
