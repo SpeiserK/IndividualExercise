@@ -11,12 +11,15 @@ public class base {
 		for(int j=0;j<arr1.length;j++) {
 			System.out.print(arr1[j]+" ");
 		}
+		sort(arr1);
+	}
+		static void sort(int[] array) {
 		System.out.println("\n");
 		System.out.println("Here is the array sorted:");
-		Arrays.sort(arr1);
-		
-		for(int j=0;j<arr1.length;j++) {
-			System.out.print(arr1[j]+" ");
+		Arrays.sort(array);
+		for(int j=0;j<array.length;j++) {
+			System.out.print(array[j]+" ");
 		}
+		
 	}
 }
