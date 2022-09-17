@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class base2 {
+public class base {
 	public static void main(String [] args) {
 		int [] arr1 = new int[10];
 		int sum = 0;
