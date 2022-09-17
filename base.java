@@ -1,4 +1,5 @@
 import java.util.Arrays;
+main
 
 public class base {
 	public static void main(String [] args) {
@@ -20,6 +21,5 @@ public class base {
 		for(int j=0;j<array.length;j++) {
 			System.out.print(array[j]+" ");
 		}
-		
 	}
 }
