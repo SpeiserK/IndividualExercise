@@ -1,7 +1,7 @@
 # IndividualExercise
 499 Individual Project
 
-This simple program will take an array sort it with the average.
+This simple program will take an array, and sort it with the average.
 
 Feature 1:  
 -sort the array in descending order
