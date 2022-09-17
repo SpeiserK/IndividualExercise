@@ -11,9 +11,9 @@ public class base {
 		average(arr1,sum);
 		sort(arr1);
 	}
-	static void average(int[] array, int sum1) {
+	static int average(int[] array, int sum1) {
 		int above = 0;
-		int avg = sum1/10;
+		int avg = sum1/5;
 		System.out.println("\n");
 		System.out.println("The average of the array is: ("+avg+")");
 		for(int k = 0;k<array.length;k++) {
@@ -22,13 +22,15 @@ public class base {
 			}
 		}
 		System.out.print("There are "+above+" numbers above the average");
+		return avg;
 	}
-		static void sort(int[] array) {
+		static int[] sort(int[] array) {
 		System.out.println("\n");
 		System.out.println("Here is the array sorted:");
 		Arrays.sort(array);
 		for(int j=0;j<array.length;j++) {
 			System.out.print(array[j]+" ");
 		}
+		return array;
 	}
 }
