@@ -4,7 +4,7 @@
 This simple program will take an array, and sort it with the average.
 
 Feature 1:  
--sort the array in descending order
+-sort the array in ascending order
 
 Feature 2:
 -find the average of the integers
